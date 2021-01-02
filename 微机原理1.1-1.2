@@ -58,6 +58,7 @@ CPU外围电路：程序存储器（ROM）--PROM, OTPROM, EEPROM, Flash ROM(可�
   CPU+功能模块+内部总线
   CPU, ROM, RAM, 并行IO/口,中断系统，定时器/计数器，串行口，SFR
   8位CPU:运算器和控制器
+ 
   内部RAM:256B, 地址：00-FFH
   外部RAM:最大扩展64KB，地址范围：0000H-FFFFH
   内部ROM: 8KB---0000-1FFF
@@ -65,5 +66,17 @@ CPU外围电路：程序存储器（ROM）--PROM, OTPROM, EEPROM, Flash ROM(可�
   SFR: 在80-FFH的专用RAM区--管理，控制和监视内部功能部件的寄存器
   并行I/O口：P0,P1,P2, P3
   
+  2.2.1 CPU的结构和组成
+    控制器
+      指令部件
+        16位PC：存放下一跳取指指令的地址
+        指令寄存器Instruction Register：存放当前指令的操作码，等待译码
+        指令译码器Instruction Decode：对当前指令操作码进行解析，并通过控制电路产生执行改指令需要                                      的控制信号，完成指令规定的操作
+     时序部件
+       时钟电路
+       分频器
+     操作控制部件
+     
+   运算器：加工处理
   
 
