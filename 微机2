@@ -1,0 +1,4 @@
+组成结构：CPU.ROM. RAM, I/O, SFR
+
+8051 MCU:
+8位 CPU+ 256B 内部RAM, 64KB 外部RAM + 8KB ROM 64 外部ROM （当前外部64KB已经集成到内部了）
